@@ -1,0 +1,94 @@
+.wrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 600px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 2px rgba(0,0,0,0.23);
+}
+
+.wrapper h1 {
+    margin-bottom: 30px;
+}
+
+.btns-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 40px;
+    
+}
+
+.btns-container button,
+.wrapper form button {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+    background-color: #F4F3EE  ;
+    color: black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.btns-container button:hover,
+.btns-container button:active,
+.wrapper form button:hover,
+.wrapper form button:active {
+    background-color: black;
+    color: white;
+}
+
+.wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper form input,
+.wrapper form button {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.wrapper form input {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    padding: 10px;
+    align-self: flex-start;
+    background-color: #068B99;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.back:hover {
+    opacity: 0.7;
+}
+
+.room-name {
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1.7rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;
+    color: grey;
+    width: 312px;
+}
